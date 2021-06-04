@@ -1,0 +1,33 @@
+.footerArea{
+    width: 100%;
+    height: 180px;
+    background-color: #512DAB;
+}
+.footerFirstLine{
+    display: flex;
+    justify-content: center;
+    color: white;
+    list-style: none;
+
+}
+.footerFirstLine>li>a,.footerFirstLine>li>span{
+    display: inline-block;
+    margin-left: 8px;
+}
+.footerFirstLine>li{
+    margin-left: 70px;
+    margin-top: 44px;
+}
+@font-face{
+    src: url('../public/fonts/GilroyRegular.otf');
+    font-family: MarkRegular;
+  }
+.footerFirstLine>li>a,.footerFirstLine>li>span{
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    font-family:MarkRegular;
+}
+.footerFirstLine>li:first-child{
+margin-left: 0px;
+}

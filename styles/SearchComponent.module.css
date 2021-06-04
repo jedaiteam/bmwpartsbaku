@@ -1,0 +1,45 @@
+.searchArea{
+   position: absolute;
+   background: #214C94;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+width: 1023px;
+height: 145px;
+margin: auto;
+ left: 0; bottom: -50px; right: 0
+
+}
+
+.searchArea>form{
+    margin-top: -40px;
+    
+    display: flex;
+    justify-content: center;
+}
+.searchArea>form>div>button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.searchArea>form>div{
+    margin:0 20px;
+}
+.searchArea>form>div>.CustomSelect{
+    font-size: 20px;
+    width: 246px;
+}
+
+.searchArea>form>div>select{
+    font-size: 20px;
+    padding-left: 15px;
+    border-radius: 10px;
+    width: 246px;
+    height: 59px;
+    outline: none;
+}
+.searchArea>form>div>select>option{
+    height: 120px !important;
+}
+

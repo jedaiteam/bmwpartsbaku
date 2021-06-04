@@ -1,0 +1,126 @@
+@font-face{
+    src: url('../public/fonts/GilroyRegular.otf');
+    font-family: MarkRegular;
+  }
+
+.parentElement{
+    margin-bottom: 102px;
+    margin-top: -98px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.parentElement>.slider>ul{
+  margin: 0;
+  padding: 33px 0;
+  list-style: none;
+  display: flex;
+}
+.parentElement>.slider>div>img{
+    height: 500px;
+    object-fit: cover;
+    width: 520px;
+}
+.parentElement>.slider>div{
+    box-shadow: 0.1px 1px 5.2px -3.5px #555;
+    background-color: #fff;
+}
+.parentElement>.slider>ul>li>img{
+    width: 163px;
+    height: 157px;
+    object-fit: cover;
+}
+.parentElement>.slider>ul>li{
+    cursor: pointer;
+    box-shadow: 0.1px 1px 5.2px -3.5px #555;
+    background-color: #fff;
+    margin-left: 14px;
+}
+.parentElement>.slider>ul>li:first-child{
+    margin-left: 0px;
+}
+.parentElement>.content>h1{
+
+    font-family: MarkPro;
+}
+.parentElement>.content{
+    width: 673px;
+height: 693px;
+background: #F3F3F3;
+margin-left: 47px;
+padding: 59px 63px;
+}
+
+.parentElement>.content>.category{
+display: flex;
+justify-content: space-between;
+}
+.parentElement>.content>h1>span:first-child{
+ 
+   
+    font-style: normal;
+    font-weight: 450;
+    font-size: 48px;
+    line-height: 81px;
+    margin-right: 10px;
+    color: #F60100;
+}
+.parentElement>.content>.category>div>h4{
+    font-family: MarkRegular;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+
+color: #000000;
+}
+
+.parentElement>.content>.text{
+    font-family: MarkRegular;
+    margin: 40px 0;
+}
+.parentElement>.content>.text>p{
+    font-family: MarkRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    
+    color: #000000;
+}
+.contact{
+    display: flex;
+    
+}
+.contact>div a>img{
+    transform: translate(-5px,-3px);
+}
+.contact>div a{
+    display: block;
+    font-family: MarkPro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+.contact>div:hover{
+    background-color: #248202;
+}
+.contact>div{
+    transition: background-color .3s;
+    text-align: center;
+    width: 250px;
+    height: 58px;
+    background: #32BF00;
+}
+
+.contact>div:last-child{
+    transition: background-color .3s;
+    background: #017BEA;
+    margin-left: 20px;
+}
+.contact>div:last-child:hover{
+    background-color: #02549f;;
+}

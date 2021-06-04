@@ -1,0 +1,43 @@
+
+
+.container{
+    margin-top: -106px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 77px;
+}
+
+.container>.imageDiv{
+    margin-left: 20px;
+}
+.parentEl{
+    display: flex;
+}
+
+.parentEl>div{
+    margin-left: 108px;
+}
+
+.parentEl>div:first-child{
+    margin-left: 0;
+}
+.parentEl>div:last-child>p:first-child{
+transform: translateX(-40px);
+}
+.parentEl>div>p>span:first-child{
+    display: inline-block;
+    margin-right: 12px;
+}
+.parentEl>div>p{
+    font-weight: 450;
+font-size: 24px;
+line-height: 30px;
+
+color: #000000;
+}
+
+.map{
+    width: 790px;
+    height: 266px; 
+    background: url('../public/uploads/map.png');
+}
