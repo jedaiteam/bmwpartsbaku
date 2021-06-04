@@ -18,12 +18,14 @@ const HowToBuy = () => {
                      </p>
                 </div>
 
-                <div>
+                <div style={{marginTop:"40px"}}>
                 <Image
                     src="/uploads/howtobuy.png"
                     alt="Picture of the author"
                     width={430}
                     height={430}
+                    style={{boxShadow:" 3px  3px 20px 1px lightgrey"}}
+                
                 />
                 </div>
             </div>

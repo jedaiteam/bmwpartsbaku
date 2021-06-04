@@ -5,11 +5,10 @@ import { Context } from "../context/Context";
 const BmwPartsCard = ({data}) => {
     const [lang, setlang] = useContext(Context);
 
-   
     return (
         <Link href={`/product-detail/${data.id}`}>
         <a className={Style.links}> 
-        <div className={Style.partCards} >
+        <div className={Style.partCards}  style={{backgroundSize: "cover"}}>
         <div style={{background:`url(https://bmwpartsbaku.az/public/${data.mainimage})`}}>
             
         </div>
