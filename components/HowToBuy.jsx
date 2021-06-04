@@ -18,13 +18,13 @@ const HowToBuy = () => {
                      </p>
                 </div>
 
-                <div style={{marginTop:"40px"}}>
+                <div  className={Style.imageWrapper}  style={{marginTop:"40px",overflow:"visible"}}>
                 <Image
-                    src="/uploads/howtobuy.png"
+                    src="/uploads/howtobuy.jpg"
                     alt="Picture of the author"
                     width={430}
                     height={430}
-                    style={{boxShadow:" 3px  3px 20px 1px lightgrey"}}
+                    className={Style.htbimage} 
                 
                 />
                 </div>

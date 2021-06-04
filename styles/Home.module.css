@@ -97,6 +97,9 @@ left: 185px;
     position: absolute;
     color: white;
 }
+.homeTitle a{
+    color: black !important;
+}
 .deactiveTitle{
     display: none;
 }
@@ -118,6 +121,10 @@ color: #000000;
 
 .LinkHome{
     text-align: right;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
 }
 .LinkHome>a:hover{
     background-color: #512DAB;

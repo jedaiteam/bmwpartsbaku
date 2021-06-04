@@ -19,3 +19,9 @@
 .parentElement>.content>p:first-child{
     margin-top: 0px;
 }
+.htbimage{
+    filter: drop-shadow(2px 2px 15px lightgrey)  ;
+}
+.imageWrapper>div{
+    overflow: visible !important;
+}

@@ -140,7 +140,7 @@ let nextSlider= data.data.length-1;
       </svg>
       </span>
 
-      <span>BMW 3-cü seriya</span>
+      <span>    <Link href={{ pathname: '/search', query: { seriya_id:1 ,category_id:"",kuzov_id:""} }}>BMW 3-cü seriya  </Link></span>
 
       <span><svg width="65" height="31" viewBox="0 0 65 31" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M16 0H33L16 31H0L16 0Z" fill="#017BEA"/>
@@ -150,11 +150,7 @@ let nextSlider= data.data.length-1;
       </span>
     </h3>
 
-    <div className={styles.LinkHome}>
-    <Link href={{ pathname: '/search', query: { seriya_id:1 ,category_id:"",kuzov_id:""} }}>
-                  <a>Hamsına bax</a>
-                  </Link>
-    </div>
+    
 </div>
 <div className={styles.katalogParent}>
   {thirtSeria.map((item,index)=>(
@@ -162,7 +158,11 @@ let nextSlider= data.data.length-1;
   ))}
   
 </div>
-
+<div className={styles.LinkHome}>
+    <Link href={{ pathname: '/search', query: { seriya_id:1 ,category_id:"",kuzov_id:""} }}>
+                  <a>hamısına bax</a>
+                  </Link>
+    </div>
 
 
  </div>
@@ -182,7 +182,7 @@ let nextSlider= data.data.length-1;
       </svg>
       </span>
 
-      <span>BMW 5-ci seriya</span>
+      <span>    <Link href={{ pathname: '/search', query: { seriya_id:3 ,category_id:"",kuzov_id:""} }}>BMW 5-ci seriya   </Link></span>
 
       <span><svg width="65" height="31" viewBox="0 0 65 31" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M16 0H33L16 31H0L16 0Z" fill="#017BEA"/>
@@ -192,11 +192,7 @@ let nextSlider= data.data.length-1;
       </span>
     </h3>
 
-    <div className={styles.LinkHome}>
-    <Link href={{ pathname: '/search', query: { seriya_id:3 ,category_id:"",kuzov_id:""} }}>
-                  <a>Hamsına bax</a>
-                  </Link>
-    </div>
+    
 </div>
 </div>
 
@@ -206,7 +202,11 @@ let nextSlider= data.data.length-1;
   ))}
   
 </div>
-
+<div className={styles.LinkHome}>
+    <Link href={{ pathname: '/search', query: { seriya_id:3 ,category_id:"",kuzov_id:""} }}>
+                  <a>Hamsına bax</a>
+                  </Link>
+    </div>
 
 
 </div>
@@ -259,7 +259,7 @@ let nextSlider= data.data.length-1;
       </svg>
       </span>
 
-      <span>BMW 7-ci seriya</span>
+      <span>  <Link href={{ pathname: '/search', query: { seriya_id:4 ,category_id:"",kuzov_id:""} }}>BMW 7-ci seriya </Link></span>
 
       <span><svg width="65" height="31" viewBox="0 0 65 31" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M16 0H33L16 31H0L16 0Z" fill="#017BEA"/>
@@ -269,11 +269,7 @@ let nextSlider= data.data.length-1;
       </span>
     </h3>
 
-    <div className={styles.LinkHome}>
-    <Link href={{ pathname: '/search', query: { seriya_id:4 ,category_id:"",kuzov_id:""} }}>
-                  <a>Hamsına bax</a>
-                  </Link>
-    </div>
+    
 </div>
 
 <div className={styles.katalogParent}>
@@ -282,6 +278,11 @@ let nextSlider= data.data.length-1;
   ))}
   
 </div>
+      <div className={styles.LinkHome}>
+        <Link href={{ pathname: '/search', query: { seriya_id:4 ,category_id:"",kuzov_id:""} }}>
+                  <a>Hamsına bax</a>
+        </Link>
+    </div>
 </div>
 </div>
     <Footer/>
